@@ -1,4 +1,8 @@
 welcome to "online grocery shop"
 
+"the products u may get like this":
+
 ghee
 pasta
+colgate toothpaste
+oils
