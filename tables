@@ -1,0 +1,38 @@
+DATABASE:"grocery"
+@@ database order :"id","name","area","address","state","city","email" ;
+
+
+INSERT INTO `orders` (`id`, `fname`, `lname`, `mobile`, `area`, `address`, `status`, `user_id`, `date`, `total`) VALUES
+(17000061, 'pooja', ' ', '9778178337', 'karnataka', 'Test Address', 'Pending', '21', '2021-07-09 14:57:32', '470');
+(17000062, 'Srilakshmi', ' ', '9778178337', 'karnataka', 'Test Address', 'Confirmed', '24', '2021-07-10 14:35:59', '470');
+
+
+
+
+
+CREATE TABLE `users` (
+  `id` int(11) NOT NULL,
+  `fname` varchar(100) NOT NULL,
+  `lname` varchar(50) NOT NULL,
+  `area` varchar(100) NOT NULL,
+  `address` text NOT NULL,
+  `state` varchar(100) NOT NULL,
+  `city` varchar(100) NOT NULL,
+  `fname` varchar(100) DEFAULT NULL,
+  `lname` varchar(50) DEFAULT NULL,
+  `area` varchar(100) DEFAULT NULL,
+  `address` text DEFAULT NULL,
+  `state` varchar(100) DEFAULT NULL,
+  `city` varchar(100) DEFAULT NULL,
+  `mobile` varchar(30) NOT NULL,
+  `email` varchar(100) NOT NULL,
+  `email` varchar(100) DEFAULT NULL,
+  `password` text NOT NULL,
+) 
+
+
+INSERT INTO `users` (`id`, `fname`, `lname`, `area`, `address`, `state`, `city`, `mobile`, `email`, `password`) VALUES
+(21, 'pooja', '', '', 'Test Address', 'karnataka', 'tumkur', '075698', '9778178337', 'poojalakshmibm@gmail.com', '5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8'),
+(24, 'Test', 'User', '', '', '', '', '', '0123456789', '', '5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8');
+(26, 'Test', 'User', NULL, NULL, NULL, NULL, NULL, '0123456780', NULL, '5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8'),
+(27, 'Test', 'User', NULL, NULL, NULL, NULL, NULL, '0123456788', NULL, '5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8');
