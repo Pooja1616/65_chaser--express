@@ -1,0 +1,36 @@
+﻿{
+  "status": 200,
+  "message": "Commodity List Found",
+  "data": [
+    {
+      "id": "1",
+      "name": "Bhavani",
+      "mobilenumber": "9427421083",
+      "address": "rajajinagar, 1126",
+      "city": "bangalore",
+      "distric": "bangalore",
+      "state": "karnataka",
+      "pincode": "56003"
+    },
+    {
+      "id": "1",
+      "name": "venkatesh",
+      "mobilenumber": "2939293939",
+      "address": "vasanthnagar ",
+      "city": "gulbarga",
+      "distric": "gulbarga",
+      "state": "karnataka",
+      "pincode": "585103"
+    },
+    {
+      "id": "1",
+      "name": "bhadra ",
+      "mobilenumber": "0293929923",
+      "address": "Shivu Society",
+      "city": "chennai",
+      "distric": "chennai",
+      "state": "tamilnadu",
+      "pincode": "382930"
+    }
+  ]
+}
